@@ -16,12 +16,12 @@ on:
    branches: [main]
    paths:
     - apis/poi/**
-    - .gihtub/workflow/POI_CI.yml
+    - .gihtub/workflow/poi_ci.yml
   pull_request:
     branches: [main]
     paths:
     - apis/poi/**
-    - .gihtub/workflow/POI_CI.yml
+    - .gihtub/workflow/poi_ci.yml
 
 jobs:
   build_and_test:
